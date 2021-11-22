@@ -5,26 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>tic-tac-toe</title>
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <main>
             <h1>Tic-Tac-Toe</h1>
-            <div class="tic-tac-toe">
-                <div onclick="topCells()" class="top">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+            <div onclick="clickedBoxes(event)" class="tic-tac-toe">
+                <div class="left">
+                    <div data-row="0" data-column="0" class="box"></div>
+                    <div data-row="1" data-column="0" class="box"></div>
+                    <div data-row="2" data-column="0" class="box"></div>
                 </div>
-                <div onclick="middleCells()" class="middle">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                <div class="middle">
+                    <div data-row="0" data-column="1" class="box"></div>
+                    <div data-row="1" data-column="1" class="box"></div>
+                    <div data-row="2" data-column="1" class="box"></div>
                 </div>
-                <div onclick="bottomCells()" class="bottom">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                <div class="right">
+                    <div data-row="0" data-column="2" class="box"></div>
+                    <div data-row="1" data-column="2" class="box"></div>
+                    <div data-row="2" data-column="2" class="box"></div>
                 </div>
             </div>
         </main>

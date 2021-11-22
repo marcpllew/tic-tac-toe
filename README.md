@@ -23,7 +23,7 @@ JS
 
 -   when player presses 'start game button' game will begin
 
--   assign player a random value of X or 0 and store in var
+-   assign player1 a value of X
 -   using random number generoator assign player value betwwen 0 and 1
 -   promt player to choose a cell, this will be stored in a DOM
 -   run a loop through cells to add a click handler
@@ -33,9 +33,8 @@ JS
     -   3. check if the game is over
     -   4. mark this box as not clickable (if statement)
 -   players will now switch turns
--   computer will then (randomly choose) a cell, this will be stored in a variable
--   promt player to choose another cell... keep this prompt looping till game over
--   after each click players have to swap turns #(how will i code this?)
+-   promt player to choose another cell... have this prompt again till game over
+-   after each click, players have to swap turns #(how will i code this?)
 -   after clicking on a cell the allocated value will show, after this that cell will not be able to be click again for game duration.
 -   if 3 cells are filled with corresponding values, that player will win and game will be over.
 
@@ -67,3 +66,12 @@ JS
 
 -   ![alt text](./image
 -   Link to page on Github https://marcpllew.github.io/tic-tac-toe/
+
+-   MAKE X's APPEAR WHEN BOXES CLICKED
+
+# Mon 22nd
+
+-   fix up if statement, Alerts not working in the right spot, 'sais no winner after 6 attempts
+-   End game when a player has won
+-   find a way that boxes can only be pressed once
+-   look into restart game button
