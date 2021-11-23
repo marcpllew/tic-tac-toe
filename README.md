@@ -69,9 +69,15 @@ JS
 
 -   MAKE X's APPEAR WHEN BOXES CLICKED
 
-# Mon 22nd
+# Mon 22nd (things to do)
 
 -   fix up if statement, Alerts not working in the right spot, 'sais no winner after 6 attempts
 -   End game when a player has won
 -   find a way that boxes can only be pressed once
 -   look into restart game button
+
+# Tues 23 (things to do)
+
+-   When game has been won, determin which player one
+-   End game When player wins
+-   restart button
