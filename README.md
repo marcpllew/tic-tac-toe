@@ -8,8 +8,6 @@
 
 ## Planning
 
--   Here's the planning
-
 HTML
 
 -   crate an empty grid of 3 by 3 in a 'main container'
@@ -78,6 +76,19 @@ JS
 
 # Tues 23 (things to do)
 
--   When game has been won, determin which player one
--   End game When player wins
+-   When game has been won, determin which player Won
+
+    -   start by tracking each move and displaying that to screen. So when there is a winner the current plyer can be returnes as winner
+
+-   End game When player a wins
+    -   stop all further action to the boxes. (require a restart game button here)
 -   restart button
+    -   wipes the board clean and starts game over
+-   alow boxed to only be clicked once
+    -   currently i can keep clicking on a box and it will change between 0 & X
+
+# Wed 24th (Tasks completed)
+
+-   Add in an if statement, when this condition is met continue through program, if not terminate the rest of code, preventing clicked button from being pushed again.
+
+-   create a restartgame function adding functionality to my restat button, this reverts all my values to 0
