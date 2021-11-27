@@ -1,5 +1,11 @@
 # tic-tac-toe
 
+Game can be accessed by following link:
+
+https://marcpllew.github.io/tic-tac-toe/
+
+or github, search for marcpllew/tic-tac-toe
+
 ## Tech Used
 
 -HTML
@@ -92,3 +98,14 @@ JS
 -   Add in an if statement, when this condition is met continue through program, if not terminate the rest of code, preventing clicked button from being pushed again.
 
 -   create a restartgame function adding functionality to my restat button, this reverts all my values to 0
+
+# Sat 27th
+
+-   remove alert boxes on for 'winning' messages, and replace with an on screen text box, updating which player has won or if there is a draw.
+    Currently appear to have a bug if player 1 wins on the last turn.
+
+    -   Have fixed this by removing the 'draw' status from the drawWinningMessage if statement and insted put it into the clickedBoxes if statement.
+
+-   Add in text box for current player turn.
+
+-   Still have not terminated the game after a player has won. so boxed can still be clicked after a 'win' and this will change the result of the on screen taxt box.

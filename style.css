@@ -54,8 +54,11 @@ button {
     background-color: #ebf5ff;
     color: #1c75bd;
 
-    border: 2px solid black;
+    border: 1px solid black;
     box-shadow: 11px 11px 11px #999999;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 button:hover,
 button:focus,
